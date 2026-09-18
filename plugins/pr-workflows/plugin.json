@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pr-workflows",
+  "version": "0.1.0",
+  "description": "Build reviewable PR stacks and write descriptions reviewers can use.",
+  "author": {
+    "name": "Will Luckcock",
+    "url": "https://github.com/will-not-hx"
+  },
+  "homepage": "https://github.com/will-not-hx/pr-workflows",
+  "repository": "https://github.com/will-not-hx/pr-workflows",
+  "license": "MIT",
+  "keywords": [
+    "pull-requests",
+    "stacked-prs",
+    "code-review",
+    "developer-workflow"
+  ]
+}

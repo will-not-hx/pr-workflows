@@ -1,0 +1,20 @@
+{
+  "name": "pr-workflows",
+  "interface": {
+    "displayName": "PR Workflows"
+  },
+  "plugins": [
+    {
+      "name": "pr-workflows",
+      "source": {
+        "source": "local",
+        "path": "./plugins/pr-workflows"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
