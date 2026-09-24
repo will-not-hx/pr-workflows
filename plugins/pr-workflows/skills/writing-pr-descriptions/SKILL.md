@@ -33,6 +33,8 @@ Explain the concrete benefit of separate review without disguising a quality reg
 
 Written for an engineer who has not read the ticket and does not know the sub-domain. Name the thing, not its category: *"one of four outcomes — `next_question`, `screening_complete`, `requires_review`, `restart_required`"* beats *"a four-variant discriminated union"*. A term the diff does not define gets defined in six words or leaves.
 
+Do not invent acronyms to shorten service names or concepts. Use the full name unless an abbreviation is already established for the reviewers and makes the description clearer. For example, write `customer-experience-api` rather than coining `CX`.
+
 ## Technical formatting
 
 Use inline backticks for exact technical values in the PR body: endpoint paths and HTTP methods, package names and versions, file paths, commands, branch names, headers, media types, fields, and error codes. Keep explanatory prose outside the backticks. For example: *"Request `GET /v1/bookings/{vid}/barcode` with `Accept: image/png`; expect `200 image/png`."* Use a fenced code block when a command or payload needs multiple lines.
