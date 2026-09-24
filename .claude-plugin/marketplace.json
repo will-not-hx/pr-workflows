@@ -8,7 +8,7 @@
     {
       "name": "pr-workflows",
       "description": "Build reviewable PR stacks and write descriptions reviewers can use.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": "./plugins/pr-workflows",
       "author": {
         "name": "Will Luckcock"
