@@ -17,6 +17,8 @@ Fill the repository's own template — do not replace it. Its reviewer checklist
 
 For a preparatory or no-public-behaviour layer, the opening also names the concrete capability in the immediate consuming layer, the current constraint that makes this preparation necessary, the duplication, coupling or risk it avoids, and why reviewing it separately helps. *"Extracts a shared boundary for future work"* says what changed but not why the PR exists. Before PR numbers exist, name the next layer and capability; link the actual consuming PR once it is open.
 
+When a PR checks in generated files, name the generated output, its generator, the maintained inputs (including any hand-written content), and the regeneration command. Make clear where a future edit belongs.
+
 **What tests does this PR have** — the automated command and resulting counts, then one line per test file naming what it pins. A verification claim names the artefact and the number: *"byte-identical, 640,597 bytes"*, not *"verified byte-identical"*.
 
 **How can this be tested** — include both automated commands that run as written and manual testing instructions. A manual check names its prerequisites or test data, the action to take, and the expected result. Keep instructions proportional to the layer: a user-facing change gets the real journey; a transport or persistence layer gets the narrow integration path that exercises it. If manual execution genuinely does not apply, say why and give the reviewer a concrete inspection path instead. Distinguish steps a reviewer can run from checks already performed; never imply an unperformed live test passed.
