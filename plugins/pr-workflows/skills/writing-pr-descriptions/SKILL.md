@@ -39,7 +39,7 @@ Use inline backticks for exact technical values in the PR body: endpoint paths a
 
 ## Final wording check
 
-Immediately before `gh pr create` or `gh pr edit --body`, read the exact body that will be submitted, including text copied from a template. Look for abbreviations you introduced for repository names, services or concepts; expand them unless the abbreviation is already established for these reviewers and makes the sentence clearer. Write `customer-experience-api`, for example, rather than coining `CX`. Check the final body again after any edit.
+Immediately before `gh pr create` or `gh pr edit --body`, read the exact body that will be submitted, including text copied from a template. Look for abbreviations you introduced for repository names, services or concepts; expand them unless the abbreviation is already established for these reviewers and makes the sentence clearer. Write `example-service`, for example, rather than coining `ES`. Check the final body again after any edit.
 
 ## Currency
 
