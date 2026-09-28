@@ -1,7 +1,7 @@
 # PR Workflows
 
-A skills-only plugin for building reviewable pull request stacks and writing descriptions that
-tell reviewers what changed, where to look, and what they need to decide.
+A skills-only plugin for building reviewable pull request stacks, writing useful descriptions, and
+understanding review comments before deciding what to change.
 
 It works with Codex and Claude Code as a plugin. OpenCode can load the same skills directly.
 
@@ -11,6 +11,8 @@ It works with Codex and Claude Code as a plugin. OpenCode can load the same skil
   preserving the repository's own template.
 - `building-pr-stacks` splits large changes into independently green pull requests, documents the
   complete stack in every PR, and handles restacking when a base moves.
+- `reading-pr-comments` reads current PR review threads, explains each concern in plain language,
+  and suggests a solution one thread at a time. It does not post replies without approval.
 
 ## Install
 
