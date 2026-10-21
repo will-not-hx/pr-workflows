@@ -1,7 +1,7 @@
 {
   "name": "pr-workflows",
-  "version": "0.2.2",
-  "description": "Build reviewable PR stacks, write useful descriptions, and understand review comments.",
+  "version": "0.3.0",
+  "description": "Build reviewable PR stacks, write clear descriptions, explain PR changes, and understand review comments.",
   "author": {
     "name": "Will Luckcock",
     "url": "https://github.com/will-not-hx"
@@ -13,13 +13,14 @@
     "pull-requests",
     "stacked-prs",
     "code-review",
+    "code-explanation",
     "developer-workflow"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "PR Workflows",
-    "shortDescription": "PR stacks, descriptions, and review comments",
-    "longDescription": "Plan independently green pull request stacks, write concise descriptions, and explain review comments one at a time before changing anything.",
+    "shortDescription": "PR stacks, descriptions, code walkthroughs, and comments",
+    "longDescription": "Plan reviewable PR stacks, write concise descriptions, explain PR changes step by step, and understand review comments.",
     "developerName": "Will Luckcock",
     "category": "Developer Tools",
     "capabilities": [
@@ -32,6 +33,7 @@
       "Split this large change into a reviewable stack of pull requests.",
       "Write a concise pull request description for this change.",
       "Restack these pull requests after their base changed.",
+      "Walk me through the code changes in this PR in plain language.",
       "Read the review comments on PR #123 and explain them one at a time."
     ]
   }
