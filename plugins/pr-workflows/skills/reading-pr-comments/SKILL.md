@@ -26,6 +26,8 @@ For each thread, link the comment and explain:
 
 Keep the explanation useful to a junior engineer. Do not merely translate jargon into different jargon, and do not frame a possible issue as a confirmed defect.
 
+At the end of each analysis, ask whether the user accepts or rejects the suggested solution or next check. Then offer to move on to the next comment when they are ready, and wait for their response before continuing. For example: “Do you accept or reject this suggestion? When you’re ready, I can move on to the next comment.”
+
 ## Keep discussion read-only
 
 Requests such as "read the comments", "the bot commented", or "let's go through them" authorize reading and discussion only. Do not post replies, resolve threads, react, edit PR descriptions, push code, or change files as part of that request. Previous permission to reply to different threads does not authorize replies to new ones.
